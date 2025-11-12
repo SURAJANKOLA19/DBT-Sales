@@ -42,3 +42,7 @@ models:
       +materialized: view
       schema: gold
 
+seeds:
+  suraj_dbt:
+    +schema: bronze
+    
